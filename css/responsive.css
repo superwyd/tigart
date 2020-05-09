@@ -1,0 +1,41 @@
+@media only screen and (max-width: 599px) {
+  html,
+  body {
+    background-image: url("../image/home-mobile.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) { 
+  html,
+  body {
+    background-image: url("../image/home-med.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  html,
+  body {
+    background-image: url("../image/home-large.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1201px) { 
+  html,
+  body {
+    background-image: url("../image/home-large.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+}
