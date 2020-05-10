@@ -2,9 +2,13 @@
   html,
   body {
     background-image: url("../image/home-mobile.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
 }
@@ -13,9 +17,13 @@
   html,
   body {
     background-image: url("../image/home-med.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 }
 
@@ -23,9 +31,13 @@
   html,
   body {
     background-image: url("../image/home-large.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 }
 
@@ -33,9 +45,13 @@
   html,
   body {
     background-image: url("../image/home-large.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
 }
