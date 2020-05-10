@@ -47,10 +47,12 @@
 @media only screen and (min-width: 1201px) { 
   html,
   body {
-    background: url("../image/home-large.png") no-repeat center fixed;
+    background-image: url("../image/home-large.png");
   /* Full height */
 height: 100%; 
-
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   }
 
