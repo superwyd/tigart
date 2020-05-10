@@ -4,6 +4,7 @@
     background-image: url("../image/home-mobile.png");
   /* Full height */
   height: 100%; 
+  width: auto;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -19,6 +20,7 @@
     background-image: url("../image/home-med.png");
   /* Full height */
   height: 100%; 
+  width: auto;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -33,6 +35,7 @@
     background-image: url("../image/home-large.png");
   /* Full height */
   height: 100%; 
+  width: auto;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -44,13 +47,10 @@
 @media only screen and (min-width: 1201px) { 
   html,
   body {
-    background-image: url("../image/home-large.png");
+    background: url("../image/home-large.png") no-repeat center fixed;
   /* Full height */
-  height: 100%; 
+height: 100%; 
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   }
 
